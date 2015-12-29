@@ -30,12 +30,12 @@
 				INNER JOIN regions ON dprocner.region_id = regions.id
 				INNER JOIN school_types ON dprocner.type_id = school_types.id";
 
-		$allowedOrder = ['id', 'region', 'schoolName', 'city', 'region', 'number', 'directorName'];
+		$allowedOrder = ['id', 'region', 'schoolName', 'city', 'number', 'directorName'];
 		if( !in_array($order, $allowedOrder) ){
 			$order = 'id';
 		}
 
-		$query_order = " ORDER BY " . $order . " DESC ";
+		$query_order = " ORDER BY " . $order . " ASC ";
 
 		if( $q != '' ){
 			$query .= " WHERE schoolName LIKE ? OR region LIKE ? " . $query_order ." ";

@@ -22,12 +22,12 @@
 	}
 
 	if (isset($_GET['region']) && !empty($_GET['region'])) {
-		$query .= "ORDER BY region DESC";
+		$query .= "ORDER BY region ASC";
 		$order=true;
 	}
 
 	if (isset($_GET['byname']) && !empty($_GET['byname'])) {
-		$query .= "ORDER BY schoolName DESC";
+		$query .= "ORDER BY schoolName ASC";
 		$order=true;
 	}
 
@@ -57,8 +57,8 @@
 <body>
 <?php include 'header.php'; ?>
 	<div class="container">
-	<a class="btn btn-default" href="?order=region">order by region</a>
-	<a class="btn btn-warning" href="?order=schoolName">order by name</a>
+	<a class="btn btn-default" href="?region=1">order by region</a>
+	<a class="btn btn-warning" href="?byname=1">order by name</a>
 	<a id = "forCsssv" class="btn btn-default" target="_blank" href="download.php?k=13">Export csv</a>
 		<table class="table table-striped">
 			<thead>

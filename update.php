@@ -111,6 +111,10 @@
 							<label for="address" class="">Հասցե</label>
 							<input value="<?php echo !$isNew ? $row['address'] : '';?>" name="address" class="form-control" type="text" placeholder="">
 						</div>
+						<div class="form-group">
+							<label for="email" class="">E-mail</label>
+							<input value="<?php echo !$isNew ? $row['ashXorhurd'] : '';?>" name="ashXorhurd" class="form-control" type="text" placeholder="">
+						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="form-group">
@@ -155,7 +159,7 @@
 						</div>
 						<div class="col-md-4">
 							<div class="form-group">
-								<label for="himnadirner" class="">Հիմնադիրներ</label>
+								<label for="himnadirner" class="">Հիմնախնդիրներ</label>
 								<textarea class="form-control" rows="10" name="himnadirner"><?php echo !$isNew ? $row['himnadirner'] : '';?></textarea>
 								<script>
 									CKEDITOR.replace( 'himnadirner');

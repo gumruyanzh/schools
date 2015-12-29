@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 	require 'core.php';
 	require 'connecti.php';
@@ -25,7 +25,7 @@
 
 </head>
 <body>
-<?php echo include 'frontheader.php'; ?>
+<?php include 'frontheader.php'; ?>
 	<script id="dialogScript" type="text/x-jquery-tmpl">
 		<div class="inContent">
 			<div class="row">
@@ -38,26 +38,27 @@
 				</div>
 				<div class="col-md-4"></div>
 				<div class="col-md-4 rightSide">
-					<div class="director"><span class="description"><strong>Տնօրեն՝</Strong></span> ${directorName} ${directorSurname}</div>
-					<div class="ashXorhurd"><span class="description">Տիպը՝</span> ${type}</div>
+					<div class="director"><span class="description"><strong>Տնօրեն՝</strong></span> ${directorName} ${directorSurname}</div>
+					<div class="email"><span class="description"><strong>Email: </strong></span> ${ashXorhurd} </div>
+					<div class="type"><span class="description"><strong>Տիպը՝ </strong></span> ${type}</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="qaxNax"><span class="description">
+				<div class="qaxNax"><span class="description"><strong>
 					{{if qndpnft != ''}}
 						Քաղաքացի նախագիծ՝
 					{{/if}}
-					</span> <br>{{html qndpnft}}</div><br><br>
-				<div class="himnadirner"><span class="description">
+					</strong></span> <br>{{html qndpnft}}</div><br><br>
+				<div class="himnadirner"><span class="description"><strong>
 					{{if himnadirner != ''}}
 						Հիմնադխնդիրներ՝
 					{{/if}}
-				</span> <br>{{html himnadirner}}</div><br>
-				<div class="patmutyun"><span class="description">
+				</strong></span> <br>{{html himnadirner}}</div><br>
+				<div class="patmutyun"><span class="description"><strong>
 					{{if patmutyun != ''}}
 						Պատմություն՝
 					{{/if}}
-				</span> <br>{{html patmutyun}}</div>
+				</strong></span> <br>{{html patmutyun}}</div>
 			</div>
 		</div>
 	</script>
