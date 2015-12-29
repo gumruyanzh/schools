@@ -114,7 +114,7 @@
 					</div>
 					<div class="col-md-4">
 						<div class="form-group">
-							<label for="number" class="">Հեռախոսահամր</label>
+							<label for="number" class="">Հեռախոսահամար</label>
 							<input value="<?php echo !$isNew ? $row['number'] : '';?>" name="number" class="form-control" type="text" placeholder="">
 						</div>
 						<div class="form-group">
