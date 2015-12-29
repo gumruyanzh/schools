@@ -1,0 +1,246 @@
+body {
+	font-family: Tahoma,"Arian AMU","Arial AMU","Arial Unicode",Sylfaen,sans-serif;
+}
+
+.customLogin form {
+	max-width: 300px;
+}
+
+.customLogin input {
+	margin-bottom: 15px;
+}
+
+a#logout {
+	color: white;
+	font-size: 1.1em;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+a#logout:hover {
+	color: black;
+	font-size: 1.1em;
+}
+
+.addButton {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.img {
+	margin-bottom: 25px;
+}
+
+.img img {
+	height: 250px;
+	width: 293px;
+}
+
+.uploadForm {
+	margin-top: 30px;
+}
+
+.panel {
+	display: inline-block;
+}
+
+
+/*Fronti Style*/
+
+/*.school {
+	display: inline-block;
+	float: left;
+	border:1px solid black;
+	margin: 10px;
+	cursor: pointer;
+	max-width: 100px;
+}*/
+
+.box img {
+	width: 200px;
+	height: 200px;
+}
+
+
+
+/*Dialog style*/
+#dialogContent {
+	color: #000000;
+	margin: 0 auto;
+	width: 70%;
+	border: 2px solid #292265;
+	font-size: 1.3em;
+	background-color: #fff;
+}
+
+
+
+#dialogContent img {
+	display: block;
+	padding-top: 15px;
+	margin: 0 auto;
+	width: 70%;
+	height: 400px;
+}
+
+#dialogContent .inContent{
+	margin: 0 auto;
+	max-width: 80%;
+}
+
+.inContent .schoolName{
+	text-align: center;
+}
+
+
+
+.inContent .qaxNax,
+.inContent .himnadirner,
+.inContent .patmutyun{
+	margin-top: 15px;
+	text-align: left;
+}
+
+
+#dialog {
+	position: relative;
+}
+
+#dialog .close{
+	color: #FFFF00;
+	font-size: 4em;
+}
+
+#dialog span.btn {
+	margin: 20px;
+	top: 30%;
+	position: absolute;
+}
+
+#dialog .btnRight {
+	right: 1px;
+}
+
+#forView {
+	position: fixed;
+	top: 95px;
+	left: 25px;
+}
+
+#forCsv{
+	position: fixed;
+	top: 145px;
+	left: 24px;
+}
+
+#edit {
+    position: absolute;
+    left:250px;
+    top: 20px;
+}
+
+
+
+
+/*flip effect*/
+
+.cubes {
+  font: 10pt normal Arial, sans-serif;
+  height: auto;
+  margin: 80px auto 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.cubes .box {
+    border: 5px solid #fff;
+    cursor: pointer;
+    height: 182px;
+    float: left;
+    margin: 5px;
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+    -moz-box-shadow: 1px 1px 1px 1px #ccc;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+
+.cubes .box img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+.cubes .box .caption {
+    background-color: rgba(0,0,0,1);
+    position: absolute;
+    color: #fff;
+    z-index: 100;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    left: 0;
+}
+
+.cubes #box-5.box .rotate-caption {
+    width: 200px;
+    height: 200px;
+    text-align: left;
+    padding: 15px;
+    top: 200px;
+    -moz-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
+.cubes .box .rotate {
+    width: 200px;
+    height: 400px;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+
+/** Rotate Caption :hover Behaviour **/
+.cubes .box:hover .rotate {
+    background-color: rgba(0,0,0,1) !important;
+    -moz-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
+
+.rotate img {
+    position: relative;
+}
+.rotate h5 {
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    z-index: 4;
+    background: rgba(255, 255, 255, 0.88);
+    padding: 10px 0;
+    width: 100%;
+    height: 48px;
+    overflow: hidden;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+
+#cke_43, #cke_38, #cke_30, #cke_23, #cke_115, #cke_122,
+#cke_130, #cke_135, #cke_206, #cke_213,
+#cke_221, #cke_226 {
+    display: none;
+}

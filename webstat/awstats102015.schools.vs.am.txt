@@ -1,0 +1,350 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201510 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.schools.vs.am.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1993                
+POS_TIME 2664                
+POS_VISITOR 8203                
+POS_DAY 9098                
+POS_DOMAIN 3361                
+POS_LOGIN 3594                
+POS_ROBOT 3749                
+POS_WORMS 3950                
+POS_EMAILSENDER 4081                
+POS_EMAILRECEIVER 4224                
+POS_SESSION 9292                
+POS_SIDER 9498                
+POS_FILETYPES 4359                
+POS_DOWNLOADS 4679                
+POS_OS 4727                
+POS_BROWSER 4836                
+POS_SCREENSIZE 5119                
+POS_UNKNOWNREFERER 5193                
+POS_UNKNOWNREFERERBROWSER 5280                
+POS_ORIGIN 5362                
+POS_SEREFERRALS 5504                
+POS_PAGEREFS 5659                
+POS_SEARCHWORDS 5873                
+POS_KEYWORDS 6025                
+POS_MISC 2328                
+POS_ERRORS 6084                
+POS_CLUSTER 3450                
+POS_SIDER_404 6228                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20151101080149 1 0 8800832723073
+FirstTime 20151027120647
+LastTime 20151031155325
+LastUpdate 20151101083119 1 0 0 0 0
+TotalVisits 38                  
+TotalUnique 18                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 21                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 4 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 9 47 2135410 25 25 11798
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 4 8 2243 0 1 0
+9 17 65 2183224 1 5 1388
+10 40 141 5076866 124 126 61695
+11 201 390 8573013 57 64 41350
+12 467 1111 16380371 171 191 231205
+13 409 1093 20175226 93 105 58009
+14 40 178 4752432 1 4 947
+15 200 547 7491125 57 63 36674
+16 64 321 8607704 26 36 16833
+17 68 258 7343476 121 127 60981
+18 10 13 25947 6 6 6658
+19 4 6 1528 13 15 6130
+20 14 69 1437160 15 16 7238
+21 1 3 1330 4 4 1888
+22 6 29 1051778 0 2 0
+23 67 358 6845332 67 117 2002937
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1621 4637 92084165
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+facebook 21 1811964 20151027233512 0
+favicon 4 3788 20151031140624 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+css 495 12308896 0 0
+png 148 2970978 0 0
+woff2 108 1150443 0 0
+woff 9 165872 0 0
+json 99 50142 0 0
+php 1252 14830578 0 0
+html 151 118563 0 0
+jpg 231 4054764 0 0
+docx 2 29943 0 0
+js 625 19694806 0 0
+jpeg 799 1081750 0 0
+svg 714 35618010 0 0
+gif 4 9420 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 6
+macosx 2250
+linuxandroid 352
+winnt 539
+winvista 1307
+linux 184
+win7 5
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 12
+chrome46.0.2490.80 2631
+chrome46.0.2490.76 159
+iphone 52
+chrome45.0.2454.94 212
+chrome45.0.2454.85 158
+netscape5.0 5
+chrome42.0.2311.135 38
+chrome47.0.2526.27 18
+firefox41.0 1251
+chrome27.0.1453 7
+safari8.0 65
+chrome46.0.2490.71 41
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 260 261
+From1 0 0
+From2 1 1
+From3 10 10
+From4 1350 4365
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://quirktools.com/screenfly/ 8 8
+https://www.facebook.com 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 192 155536
+206 27 297074
+500 53 20771
+404 515 243023
+301 13 6867
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 33
+/infograph/2009.json 31 http://schools.vs.am/infograph/
+/infograph/1994.json 28 http://schools.vs.am/infograph/
+/infograph/1995.json 8 http://schools.vs.am/infograph/
+/js/ckeditor/kcfinder/upload/ 1 -
+/infograph/1996.json 5 http://schools.vs.am/infograph/
+/infograph/2000.json 11 http://schools.vs.am/infograph/
+/infograph/all.json 44 http://schools.vs.am/infograph/
+/infograph/2008.json 31 http://schools.vs.am/infograph/
+/infograph/2007.json 25 http://schools.vs.am/infograph/
+/infograph/2006.json 21 http://schools.vs.am/infograph/
+/infograph/2011.json 32 http://schools.vs.am/infograph/
+/infograph/1999.json 9 http://schools.vs.am/infograph/
+/13/output.php 4 http://schools.vs.am/allschools.php
+/infograf 1 -
+/infograph/2003.json 19 http://schools.vs.am/infograph/
+/infograph/1998.json 5 http://schools.vs.am/infograph/
+/infograph/2004.json 19 http://schools.vs.am/infograph/
+/infograph/2014.json 48 http://schools.vs.am/infograph/
+/infograph/2005.json 20 http://schools.vs.am/infograph/
+/js/ckeditor/kcfinder/login.php 2 -
+/inograph 1 -
+/2015.json 1 http://schools.vs.am/infograph/
+/13/js/ckeditor/kcfinder/browse.php 13 http://schools.vs.am/update.php
+/Users/JW/Desktop/projects/infograph/2015.json 3 http://schools.vs.am/infograph/
+/infograph/2013.json 39 http://schools.vs.am/infograph/
+/infograph/2002.json 18 http://schools.vs.am/infograph/
+/infograph/2010.json 32 http://schools.vs.am/infograph/
+/nfograph 1 -
+/gron.php 1 -
+/js/ckeditor/kcfinder/scools.vs.am/login.php 2 -
+/infograph/1997.json 5 http://schools.vs.am/infograph/
+/13/js/ckeditor/kcfinder/upload.php 1 http://schools.vs.am/update.php
+/infograph/2012.json 34 http://schools.vs.am/infograph/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 21
+95.140.192.10 796 1709 17794815 20151030130537
+78.109.77.118 636 1989 54232910 20151030171138
+37.157.216.159 41 230 3505472 20151027235908
+93.94.219.69 30 158 1335658 20151028101705
+37.157.216.218 25 102 3340914 20151028001115
+92.43.143.138 18 75 1438688 20151029194247
+46.70.209.108 17 99 4272905 20151030165619
+188.115.206.180 14 58 2213516 20151029165241
+37.157.216.210 14 74 1262399 20151030223948
+46.71.31.246 8 43 180637 20151031151336
+104.45.18.178 4 4 17751 20151030123946
+66.249.93.187 2 3 74463 20151029124403
+66.249.93.195 0 2 99548 
+46.71.28.154 2 4 0 20151031155325
+66.249.93.191 0 2 126029 
+23.101.61.176 1 1 3690 20151028112440
+46.70.46.8 6 36 2111384 20151027233538
+46.71.115.237 1 3 1330 20151030214240
+46.70.15.128 2 4 0 20151031082538
+188.115.206.29 0 7 55032 
+178.160.156.135 4 34 17024 20151027234102
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 5
+20151027 386 1304 28819913 10
+20151028 207 525 17589237 8
+20151029 919 2254 25554006 8
+20151030 97 503 19940372 9
+20151031 12 51 180637 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 6
+5mn-15mn 5
+15mn-30mn 2
+2mn-5mn 2
+30s-2mn 4
+0s-30s 16
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 25
+/output.php 651 11693730 0 11
+/update.php 174 406859 0 0
+/infograph/ 140 110545 23 7
+/front.php 138 232462 3 2
+/allschools.php 130 230089 1 0
+/infograph/2015.json 81 40250 0 11
+/js/ckeditor/kcfinder/browse.php 81 214719 0 0
+/infograph/fonts/glyphicons-halflings-regular.woff2 65 766962 0 1
+/fonts/glyphicons-halflings-regular.woff2 43 383481 0 0
+/login.php 34 30997 9 0
+/ 11 8018 1 0
+/js/ckeditor/kcfinder/upload.php 10 6598 0 0
+/js/ckeditor/kcfinder/themes/default/js.php 4 1260 0 0
+/infograph/all.json 9 3088 0 5
+/js/ckeditor/kcfinder/upload/files/Schools.vs.am%283%29.docx 1 14928 0 0
+/js/ckeditor/kcfinder/themes/default/css.php 4 40224 0 0
+/js/ckeditor/kcfinder/js/index.php 4 1922636 0 0
+/js/ckeditor/kcfinder/upload/files/Schools.vs.am.docx 1 15015 0 0
+/js/ckeditor/kcfinder/js_localize.php 11 11226 0 0
+/fonts/glyphicons-halflings-regular.woff 1 23696 0 0
+/js/ckeditor/kcfinder/css/index.php 4 4580 0 0
+/infograph/2001.json 9 6804 0 1
+/index.php 1 391 0 0
+/infograph/fonts/glyphicons-halflings-regular.woff 8 142176 0 0
+/phpinfo.php 6 34807 1 0
+END_SIDER

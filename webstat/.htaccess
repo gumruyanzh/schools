@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/schools.vs.am/webstat"
+AuthUserFile /var/www/zhiro/data/etc/36178851.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
