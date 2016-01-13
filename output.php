@@ -22,7 +22,6 @@
 	}else {
 
 		$order = isset($_GET['order']) ? $_GET['order'] : 'id';
-		echo $order;
 		$q = isset($_GET['q']) ? $_GET['q'] : '';
 		$query = "SELECT dprocner.id, type_id, schoolName, address, city, number, directorName,
 					directorSurname, ashXorhurd, qndpnft, himnadirner, patmutyun, region_id, image_path, region, type

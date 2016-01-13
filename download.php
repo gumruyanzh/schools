@@ -47,7 +47,7 @@ if ( isset($_GET['k']) ) {
 			// create line with field names
 			for($i = 0; $i < $field; $i++) {
 				$k = mysqli_fetch_field_direct($result, $i)->name;
-				$csv_export.= $fieldNames[$k] . ',';
+				$csv_export.=  $fieldNames[$k] . ',';
 			}
 			// newline (seems to work both on Linux & Windows servers)
 			$csv_export .= "\n";
@@ -68,7 +68,8 @@ if ( isset($_GET['k']) ) {
 			// Export the data and prompt a csv file for download
 			header("Content-type: text/x-csv");
 			header("Content-Disposition: attachment; filename=".$csv_filename."");
-			echo($csv_export);
+			//echo($csv_export);
+			echo chr(255) . chr(254) . mb_convert_encoding($csv_export, 'UTF-16LE', 'UTF-8');
 		}
 
 	}

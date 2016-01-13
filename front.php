@@ -51,7 +51,7 @@
 					</strong></span> <br>{{html qndpnft}}</div><br><br>
 				<div class="himnadirner"><span class="description"><strong>
 					{{if himnadirner != ''}}
-						Հիմնադխնդիրներ՝
+						Հիմնախնդիրներ՝
 					{{/if}}
 				</strong></span> <br>{{html himnadirner}}</div><br>
 				<div class="patmutyun"><span class="description"><strong>
